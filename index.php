@@ -6,18 +6,18 @@
 </head>
 <body>
 
-	<header>
-		<ul style="list-style: none;" class="list-inline inline-block">
-			<li class="list-inline-item"><a href="https://www.snte.org.mx/web/"><img src="img/sntelogo.png"></a></li>
-			<li class="list-inline-item"><a href="http://www.tecnm.mx/"><img src="img/tnmlogo.jpg" style="height:80px;width:120px;"></a></li>
-		</ul>
-		<?php
-			include 'barranav.html';
-		?>
-	</header>
-
+		<header>
+			<ul style="list-style: none;" class="list-inline inline-block row">
+				<li class="list-inline-item col"><a href="https://www.snte.org.mx/web/"><img src="img/sntelogo.png"></a></li>
+				<li class="list-inline-item col"><h2 style="color: #000000;">Seccion 61 - D-V-63</h2></li>
+			</ul>
+			<?php
+				include 'barranav.html';
+			?>
+		</header>
+	
 	<footer>
-		
+		<div style="background-color: #EF6C00; width: 100%;height: 200px;"></div>
 	</footer>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
